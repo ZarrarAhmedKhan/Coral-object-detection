@@ -1,0 +1,8 @@
+#!/bin/bash
+
+python3 detect_video_1.py   \
+    --model ../efficientdet_lite0_320_ptq.tflite \
+    --labels ../mask-labels.txt \
+    --camera_idx 0 \
+    --output result_combined
+

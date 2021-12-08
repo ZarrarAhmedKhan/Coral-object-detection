@@ -1,0 +1,8 @@
+#!/bin/bash
+
+python3 detect_dir.py   \
+    --model model_edgetpu.tflite \
+    --labels coco_labels.txt \
+    --camera_idx ../dataset_folder/dataset \
+    --output result_combined
+

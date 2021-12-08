@@ -1,0 +1,8 @@
+#!/bin/bash
+
+python3 detect_image.py   \
+    --model model_edgetpu.tflite \
+    --labels labels.txt \
+    --input a_shipping_back_2020-11-17t10-08-54.jpg \
+    --output result_image.jpg
+
